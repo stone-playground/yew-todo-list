@@ -1,0 +1,22 @@
+[
+    {
+        "id": "1",
+        "text": "first",
+        "completed": false
+    },
+    {
+        "id": "2",
+        "text": "second",
+        "completed": false
+    },
+    {
+        "id": "3",
+        "text": "3rd",
+        "completed": true
+    },
+    {
+        "id": "4",
+        "text": "4th",
+        "completed": false
+    }
+]
