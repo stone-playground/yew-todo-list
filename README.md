@@ -1,5 +1,5 @@
 # What's this?
-It's a [TodoMVC](https://todomvc.com/) style app written in [Rust](https://www.rust-lang.org/) with [yew](https://yew.rs/docs/concepts/html/events).
+It's a [TodoMVC](https://todomvc.com/) style app written in [Rust](https://www.rust-lang.org/) with [yew](https://yew.rs/).
 
 # Screen Recording
 ![Recording](./recording.gif)
