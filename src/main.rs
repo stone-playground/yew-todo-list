@@ -25,13 +25,13 @@ pub struct AppProps {
 
 #[function_component]
 fn App(props: &AppProps) -> Html {
-    let todos = use_state(|| vec![]);
+    let todos = use_state(Vec::new);
     {
         let todos = todos.clone();
         use_effect_with_deps(
             move |_| {
                 wasm_bindgen_futures::spawn_local(async move {
-                    let fetched_todos = Request::get("/mock-data/items.json")
+                    let fetched_todos = Request::get("./mock-data/items.json")
                         .send()
                         .await
                         .unwrap()
