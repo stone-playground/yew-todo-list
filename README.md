@@ -19,4 +19,4 @@ It's a [TodoMVC](https://todomvc.com/) style app written in [Rust](https://www.r
 deploy.sh
 ```
 
-It's going to deploy the `dist/` to https://dist-sunhuawei-stone-playground.vercel.app/.
+It's going to deploy the `dist/` to https://yew-todomvc-sunhuawei-stone-playground.vercel.app/.
