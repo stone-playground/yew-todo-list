@@ -2,6 +2,8 @@
 
 It's a [TodoMVC](https://todomvc.com/) style app written in [Rust](https://www.rust-lang.org/) with [Yew](https://yew.rs/).
 
+Here is a live demo https://yew-todomvc-sunhuawei-stone-playground.vercel.app/.
+
 # Screen Recording
 
 ![Recording](./recording.gif)
